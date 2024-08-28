@@ -9,7 +9,7 @@ function App() {
           Making brands standout through design
         </h1>
 
-        <button className="text-md rounded-full border border-slate-400 bg-white/30 px-7 py-3 text-xl text-white transition-all duration-300 hover:bg-white/40">
+        <button className="text-md rounded-full border border-slate-400 px-7 py-3 text-xl text-white transition-all duration-300 hover:bg-white/40">
           <a href="mailto:contact@jasperlab.com">Contact us</a>
         </button>
       </div>
@@ -22,7 +22,9 @@ function App() {
       <div className="absolute top-0 z-0 min-h-full w-full">
         <video
           src="/assets/bg-video.mp4"
+          autoPlay
           loop
+          muted
           playsInline
           className="hero-video absolute top-0 h-full w-full object-cover"
         ></video>
