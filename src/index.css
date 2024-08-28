@@ -31,6 +31,5 @@ h6 {
 }
 
 button {
-  background-color: rgba(255, 255, 255, 0.3); /* Fallback for older browsers */
-  background-color: rgb(255 255 255 / 0.3);
+  background-color: hsla(0, 0%, 73%, 0.2); /* Fallback for older browsers */
 }
