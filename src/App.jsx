@@ -16,7 +16,7 @@ function App() {
       <img
         src="/assets/shine.svg"
         alt="background glow"
-        className="absolute top-0 z-30"
+        className="absolute top-0 z-30 opacity-60"
       />
       <div className="absolute top-0 z-20 h-full w-full bg-black/50"></div>
       <div className="absolute top-0 z-0 h-full w-full">
