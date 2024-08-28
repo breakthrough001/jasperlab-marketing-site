@@ -1,10 +1,10 @@
 function App() {
   return (
-    <div className="flex min-h-lvh flex-col bg-indigo-400">
+    <div className="flex min-h-dvh flex-col bg-indigo-400">
       <header className="z-40 py-8">
         <img className="mx-auto h-11" src="/assets/logo.png" alt="" />
       </header>
-      <div className="w-100 z-40 mx-auto my-auto flex flex-grow flex-col items-center justify-center gap-10 px-6 lg:w-11/12 xl:w-9/12 2xl:w-7/12">
+      <div className="w-100 z-40 mx-auto my-auto flex flex-grow flex-col items-center justify-center gap-10 px-6 lg:w-11/12 xl:w-9/12 2xl:w-6/12">
         <h1 className="text-center text-5xl leading-snug text-white md:text-7xl md:leading-snug">
           Making brands standout through design
         </h1>
@@ -22,9 +22,7 @@ function App() {
       <div className="absolute top-0 z-0 min-h-full w-full">
         <video
           src="/assets/bg-video.mp4"
-          autoPlay
           loop
-          muted
           playsInline
           className="hero-video absolute top-0 h-full w-full object-cover"
         ></video>
