@@ -15,3 +15,14 @@ h6 {
   font-family: 'Noto Serif Display', serif;
 }
 
+.hero-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.hero-video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+.hero-video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}

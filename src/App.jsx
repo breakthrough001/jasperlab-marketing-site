@@ -18,15 +18,15 @@ function App() {
         alt="background glow"
         className="absolute top-0 z-30 opacity-60"
       />
-      <div className="absolute top-0 z-20 h-full w-full bg-black/50"></div>
-      <div className="absolute top-0 z-0 h-full w-full">
+      <div className="absolute top-0 z-20 min-h-lvh w-full bg-black/50"></div>
+      <div className="absolute top-0 z-0 min-h-lvh w-full">
         <video
           src="/assets/bg-video.mp4"
-          loop
           autoPlay
+          loop
           muted
           playsInline
-          className="absolute top-0 h-full w-full object-cover"
+          className="hero-video absolute top-0 h-full w-full object-cover"
         ></video>
       </div>
     </div>
