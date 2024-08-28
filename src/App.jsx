@@ -18,8 +18,8 @@ function App() {
         alt="background glow"
         className="absolute top-0 z-30 opacity-60"
       />
-      <div className="absolute top-0 z-20 min-h-lvh w-full bg-black/50"></div>
-      <div className="absolute top-0 z-0 min-h-lvh w-full">
+      <div className="absolute top-0 z-20 min-h-full w-full bg-black/50"></div>
+      <div className="absolute top-0 z-0 min-h-full w-full">
         <video
           src="/assets/bg-video.mp4"
           autoPlay
