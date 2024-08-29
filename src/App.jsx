@@ -4,7 +4,7 @@ function App() {
       <header className="z-40 py-8">
         <img className="mx-auto h-11" src="/assets/logo.png" alt="" />
       </header>
-      <div className="w-100 z-40 mx-auto my-auto flex flex-grow flex-col items-center justify-center gap-10 px-6 lg:w-11/12 xl:w-9/12 2xl:w-6/12">
+      <div className="w-100 z-40 mx-auto my-auto flex flex-grow flex-col items-center justify-center gap-10 px-6 lg:w-11/12 xl:w-9/12 2xl:w-[900px]">
         <h1 className="text-center text-5xl leading-snug text-white md:text-7xl md:leading-snug">
           Making brands standout through design
         </h1>

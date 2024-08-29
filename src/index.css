@@ -31,5 +31,7 @@ h6 {
 }
 
 button {
-  background-color: hsla(0, 0%, 73%, 0.3); /* Fallback for older browsers */
+  background-color: hsla(0, 0%, 73%, 0.2); 
+  -webkit-backdrop-filter: blur(1.4rem);
+  backdrop-filter: blur(1.4rem);
 }
