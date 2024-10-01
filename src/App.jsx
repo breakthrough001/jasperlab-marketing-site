@@ -10,7 +10,12 @@ function App() {
         </h1>
 
         <button className="text-md rounded-full border border-slate-400 px-7 py-3 text-xl text-white transition-all duration-300 hover:bg-white/40">
-          <a href="mailto:contact@jasperlab.com">Contact us</a>
+          <a
+            href="https://wwfl5fudzr0.typeform.com/to/I4OYMe7x"
+            target="_blank"
+          >
+            Contact us
+          </a>
         </button>
       </div>
       <img
